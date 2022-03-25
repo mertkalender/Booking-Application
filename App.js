@@ -85,6 +85,7 @@ function App(){
             )
           }
         })}
+        
       >
         <Tab.Screen 
           name = "Search"

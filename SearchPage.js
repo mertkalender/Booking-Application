@@ -154,6 +154,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  
   dateButton: {
     margin: 10,
     width: 300,

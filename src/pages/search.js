@@ -30,7 +30,7 @@ export default function SearchPage({}){
 
 
   return(
-    <ImageBackground source={require("./assets/background.jpg")}>
+    <ImageBackground source={require("../assets/background.jpg")}>
       <View style = {styles.body}>
           <View style = {styles.welcome}>
             <Text style ={[

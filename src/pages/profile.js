@@ -39,7 +39,7 @@ export default function ProfilePage({navigation}){
     return(
       <View style = {styles.body}>
         <View style = {styles.header}>
-          <Image style= {styles.image} source={require("./assets/pp.jpg")}/>
+          <Image style= {styles.image} source={require("../assets/pp.jpg")}/>
           <Text style = {[
             {fontSize: 15},
             {fontWeight: 'bold'},

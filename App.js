@@ -19,10 +19,10 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 
-import SearchPage from "./SearchPage"
-import ProfilePage from "./ProfilePage"
-import SavedPage from "./SavedPage"
-import MyBookingsPage from "./MyBookingsPage"
+import SearchPage from "./src/pages/search"
+import ProfilePage from "./src/pages/profile"
+import SavedPage from "./src/pages/savedHotels"
+import MyBookingsPage from "./src/pages/myBookings"
 import {NavigationContainer, useNavigationState} from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
